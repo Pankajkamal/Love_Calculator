@@ -1,0 +1,3 @@
+Love calculator is a site they calculate the love of peoper.
+
+we are use for making this site javascript random number genretor

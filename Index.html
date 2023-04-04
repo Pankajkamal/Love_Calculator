@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Merriweather:ital@0;1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="love-calculator" class="calculator">
+        <form id="loveForm" id="loveform" class="" action="" onsubmit="return loveValidation();
+        " method="post" id="sheetdb-form ">
+            <h1>Welcome <i class="fas fa-heartbeat"></i></h1>
+            <h2 id="lovefinal"  >Calculate your love score</h2>
+            <p>Please enter names below</p>
+            <h2 class="your-name">Your Name</h2>
+            <input id="firstname" class="yourname name-box" type="text" name="firstName" placeholder="Your Name">
+            <h2 class="lovers-name">Lover's Name</h2>
+            <input id="lovername" class="lovername name-box" type="text" name="lovername" placeholder="Lover's Name">
+        </form>
+            <button id="love-button" onclick="loveCalculator()" class="buttons" type="submit" value="Submit"><i class="fas fa-heart"></i> Calculate</button>
+            <button onclick="resetFunction()" class="buttons" type="submit"><i class="fas fa-heart-broken"></i> Reset</button>
+        <footer>
+            <a href="https://github.com/Pankajkamal"><i class="social-media fa-brands fab fa-1.5x fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kamal-pankaj-24b8121aa/"><i class="social-media fab fa-1.5x fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/coding_is_nothing/"><i class="social-media fab fa-1.5x fa-instagram"></i></a>
+        </footer>
+    </div>
+    <!--java  script link-->
+    <script src="JS/script.js" charset="utf-8"></script>
+</body> 
+</html>
